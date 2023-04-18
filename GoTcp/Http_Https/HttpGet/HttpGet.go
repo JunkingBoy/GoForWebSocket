@@ -47,7 +47,7 @@ func HttpGetHeader(str string, args []string) *http.Response {
 }
 
 func main() {
-	login := "https://console-pre.raylink.live/login"
+	login := ""
 	// strings := []string{"1", "2"}
 	fmt.Print(HttpGetNotHeader(login))
 	// fmt.Print(HttpGetHeader(login, strings))
