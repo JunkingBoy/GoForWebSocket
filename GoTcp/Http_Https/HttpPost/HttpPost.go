@@ -1,4 +1,4 @@
-package main
+package HttpPost
 
 import (
 	"net/http"
